@@ -1,0 +1,204 @@
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+.wrap{
+  width: 35%;
+  margin: auto;
+  padding: 20px 20px 60px 20px;
+  background: white;
+  position: absolute;
+  z-index: 100;
+  height: 500px;
+  padding-top: 20px;
+  left: 400px;
+  box-shadow: 0 4px 32px 0 rgba(10,14,29,.02), 0 8px 64px 0 rgba(10,14,29,.08);
+}
+.stechmax-logo{
+  padding: 3em;
+  margin-bottom: -2%;
+  text-align: center;
+}
+.stechmax-logo img{
+  width: 200px;
+}
+h2{
+  text-align: center;
+  color: #000080;
+  font-size: 2.5em;
+}
+.forgot-password{
+  float: right;
+  padding: 5px;
+  margin-bottom: 4%;
+  cursor: pointer;
+}
+#sign-up-option{
+  margin-top: 30px;
+}
+.container{
+  background: linear-gradient(90deg,#021048,#1e38a3);
+  margin-top: -5%;
+  padding: 5% 2% 0% 2%;
+  height: 90vh;
+  width: 100%;
+}
+.input-container {
+  display: -ms-flexbox; 
+  display: flex;
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+.icon {
+  padding: 13px;
+  background: #03a9f4;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+
+.input-field {
+  width: 100%;
+  padding: 18px;
+  outline: none;
+}
+
+.input-field:focus {
+  border: 2px solid dodgerblue;
+}
+
+/* submit button style */
+.btn {
+  background-color: #03a9f4;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.rectangl-left{
+  width: 1000px;
+  height: 250px;
+  background-color: #fff;
+  background-size: cover;
+  clip-path: polygon(0% 100%, 100% 100%, 0% 0%);
+  position: relative;
+  top: -130px;
+}
+
+.rectangl-right {
+  width: 1000px;
+  top: -420px;
+  height: 280px;
+  left: 500px;
+  background-color: #fff;
+  background-size: cover;
+  position: relative;
+  clip-path: polygon(80% 0%, 80% 80%, 0% 80%);
+}
+
+.rectangle-container{
+  width: 100%;
+  height: 100px;
+  position: relative;
+  top: -20px;
+  width: 8%;
+}
+p{
+  text-align: center;
+}
+.overall-container{
+  overflow: hidden;
+}
+
+
+/*@media Query reduce rectagle width*/
+@media(max-width: 994px){
+    .wrap{
+      left: 310px;
+      width: 40%;
+      }
+    .rectangl-right{
+      width: 1500px;
+      top: -450px;
+      height: 300px;
+      left: 300px;
+      }
+    }
+@media (max-width: 834px) {
+  .wrap {
+    left: 160px;
+    width: 60%;
+}
+  .rectangl-right {
+    width: 1700px;
+    top: -490px;
+    height: 350px;
+    left: 30px;
+  }
+}
+@media (max-width: 665px){
+  .wrap {
+    left: 87px;
+    width: 70%;
+    background: azure;
+  }
+  .rectangl-right {
+    top: -520px;
+    height: 360px;
+    left: 30px;
+    width: 1400px;
+  }
+}
+@media(max-width: 411px){
+  .container{
+  height: 70vh;
+}
+  .wrap{
+    width: 80%;
+    left: 47px;
+  }
+  .rectangl-right {
+    width: 200px;
+    height: 459px;
+    left: 280px;
+    top: -510px;
+  }
+  .rectangl-left {
+    width: 100px;
+    height: 250px;
+    top: -200px;
+  }
+}
+@media(max-width: 375px){
+  .wrap{
+    left: 40px;
+  }
+  .rectangl-right{
+    height: 459px;
+    left: 290px;
+    top: -590px;
+  }
+  @media(max-width: 360px){
+    .rectangl-right{
+    height: 459px;
+    left: 267px;
+    top: -590px;
+    }
+  }
+  @media(max-width: 320px){
+    .rectangl-right{
+    left: 190px;
+    top: -500px;
+    height: 400px;
+    }
+    .wrap{
+      left: 33px;
+    }
+
+}
